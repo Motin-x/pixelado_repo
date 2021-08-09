@@ -79,7 +79,7 @@ footer div {
   margin: 0 auto;
 }
 
-.flex-container {
+.flex-conteiner {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -196,7 +196,7 @@ video {
 }
 
 .formcontacto {
-  padding: 10px 10px 10px 60px;
+  padding: 16px 60px 16px 15px;
   -ms-flex-item-align: start;
       align-self: flex-start;
 }
