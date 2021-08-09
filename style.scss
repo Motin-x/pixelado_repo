@@ -96,25 +96,59 @@ table{
     background: linear-gradient(0deg, rgba(60,146,163,1) 0%, rgba(14,14,28,1) 50%, rgba(163,60,157,1) 100%);
     background-size:150%;
     color:whitesmoke;
+    margin: 10px 50px 10px 50px;
 }
 label{
-    font-size: 20px;
+    background: $gradient1;
+    font-family: sans-serif; 
+    font-size: 18px; 
+    font-weight: 400; 
+    text-align: center;   
+    border-radius: 35px 0px 35px 0px; 
+    -moz-border-radius: 35px 0px 35px 0px; 
+    -webkit-border-radius: 35px 0px 35px 0px; 
+    border: 2px solid #5878ca;
+    padding: 10px;
+    margin: 6px auto;
 }
 input{
     font-size: 15px;
 
 }
+.botones{
+    padding: 10px 10px 10px 10px;
+    input{
+        background: $gradient1;
+        color: white;
+        font-family: sans-serif;
+        padding: 8px; 
+        border-radius: 35px 0px 35px 0px; 
+        -moz-border-radius: 35px 0px 35px 0px; 
+        -webkit-border-radius: 35px 0px 35px 0px; 
+        margin: 0 auto;
+    }
+}
+.contenedorImgContacto{
+    display: flex;
+    align-self: flex-end;
 
+}
+.imagenContacto{
+    height: 150px;
+    margin-left: 30px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    margin-right: 30px;
+}
 video{
     width: 300px;
+    margin: 10px 20px 10px 20px;
 }
 
 .grid-conteiner div{
         padding: 1em;
 }
-.grid-conteiner div:hover{
-border: 2px yellow solid;
-}
+
 .video{
     align-self: start;
 }
@@ -138,6 +172,7 @@ border: 2px yellow solid;
 }
 .formcontacto{
     padding: 10px 10px 10px 60px;
+    align-self: flex-start;
 }
 .error{
     background-image: url(https://cdn2.vectorstock.com/i/1000x1000/36/96/404-error-blue-not-found-page-vector-18273696.jpg);
@@ -173,6 +208,16 @@ border: 2px yellow solid;
     }
     h1{
         font-size: 60px;
+    }
+    .imagenContacto{
+        height: 200px;
+        margin-right: 150px;
+        margin-left: 0px;
+        margin-bottom: 200px;
+    }
+    .contenedorForm{
+        margin-right: 50px;
+        margin-left: 50px;
     }
 }
 

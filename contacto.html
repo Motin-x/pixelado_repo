@@ -43,30 +43,40 @@
             </nav>
         </header>
             <h1 class="animate__animated animate__rubberBand">Contacto</h1>
-                <fieldset>
-                    <form class="formcontacto" method="GET">
-                    <fieldset>
-                    <label form="nombre">Nombre</label>
-                    <input type="text" value=""name="nombre">
-                    <label form="Mail">Email</label>
-                    <input type="email" name="mail">
-                    <label form="teléfono">Teléfono</label>
-                    <input type="tel" name="teléfono">
-                    </fieldset>
-
-                    <label form="texto">Texto libre:</label>
-                    <textarea name="texto" cols="30" rows="10"></textarea>
-
-                    <fieldset>
-                    <input type="checkbox" name="aceptar" value="1">
-                    <label for="aceptar">Quiero recibir mail con sus productos</label>
-                    </fieldset>
                 
-                    <input class="button" type="submit" value="enviar">
-                    <input class="button" type="reset" value="limpiar">
-                    <input class="button" type="button" value="guardar para después">
+                <div class="grid-conteiner">
+
+                  <div class="contenedorForm">
+                    <form class="formcontacto" method="GET">
+                      <fieldset>
+                      <label form="nombre">Nombre</label>
+                      <input type="text" value=""name="nombre">
+                      <label form="Mail">Email</label>
+                      <input type="email" name="mail">
+                      <label form="teléfono">Teléfono</label>
+                      <input type="tel" name="teléfono">
+                      </fieldset>
+
+                      <label form="texto">Texto libre:</label>
+                      <textarea name="texto" cols="30" rows="10"></textarea>
+
+                      <fieldset>
+                      <input type="checkbox" name="aceptar" value="1">
+                      <label for="aceptar">Quiero recibir mail con sus productos</label>
+                      </fieldset>
+                      <div class="botones">
+                        <input class="button" type="submit" value="enviar">
+                        <input class="button" type="reset" value="limpiar">
+                        <input class="button" type="button" value="guardar para después">
+                      </div>
                     </form>
-                </fieldset>
+                  </div>
+
+                  <div class="contenedorImgContacto">
+                    <img class="imagenContacto" src="assets/contacto1.png" alt="contacto">
+                  </div>
+
+                </div>
         <footer>
             <div>
                 <img class="logoFooter" src="assets/logopng.png" alt="">
