@@ -265,6 +265,10 @@ video {
   }
   video {
     width: 500px;
+    margin-left: 100px;
+  }
+  .tabla {
+    margin-right: 200px;
   }
   tr > td {
     font-size: 20px;
