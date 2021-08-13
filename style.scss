@@ -191,6 +191,10 @@ video{
             margin: 0 auto;
         }
 }
+.carousel {
+    position: relative;
+    display: none;
+}
 @media only screen and (min-width: 768px) {
     .flex-item{
         margin: 5%;
@@ -218,6 +222,10 @@ video{
     .contenedorForm{
         margin-right: 50px;
         margin-left: 50px;
+    }
+    .carousel {
+        position: relative;
+        display: block;
     }
 }
 
