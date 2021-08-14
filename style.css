@@ -226,6 +226,9 @@ video {
 }
 
 @media only screen and (min-width: 768px) {
+  .flex-conteiner {
+    margin-left: 100px;
+  }
   .flex-item {
     margin: 5%;
     width: 20%;
