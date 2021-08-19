@@ -196,7 +196,7 @@ video{
     position: relative;
     display: none;
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 600px) {
 
     .flex-conteiner{
         margin-left: 100px;
@@ -220,7 +220,6 @@ video{
     }
     .imagenContacto{
         height: 200px;
-        margin-right: 150px;
         margin-left: 0px;
         margin-bottom: 200px;
     }
@@ -232,6 +231,11 @@ video{
         position: relative;
         display: block;
     }
+    .formcontacto{
+        padding-left: 50px;
+        padding-right: 60px;
+    }
+    
 }
 
 @media only screen and (min-width: 1024px) {
